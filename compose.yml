@@ -1,0 +1,15 @@
+version: '3'
+services:
+  cot:
+    image: bv
+    container_name: almanginxc
+    ports:
+      - "2356:80"
+    volumes:
+      - jkl:/data
+    networks:
+      - network5
+networks:
+  network5:
+volumes:
+  jkl:
