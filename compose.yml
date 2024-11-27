@@ -1,7 +1,7 @@
 version: '3'
 services:
   cot:
-    image: bv
+    image: newimage
     container_name: almanginxc
     ports:
       - "2356:80"
